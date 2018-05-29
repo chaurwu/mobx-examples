@@ -1,0 +1,27 @@
+{
+  "name": "a1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "mobx": "^4.2.0",
+    "mobx-react": "^5.0.0",
+    "mobx-state-tree": "^2.0.4",
+    "react": "^16.3.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dnd-touch-backend": "^0.4.0",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^1.5.2"
+  }
+}
